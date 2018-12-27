@@ -16,9 +16,17 @@ Device driver for separately shining two LEDs.
 
 ## Usage
 ```
+cd led_device_driver_2
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
+echo 1 > /dev/myled0 //2LEDs flash
+echo 0 > /dev/myled0 //2LEDs solid
+echo 3 > /dev/myled0 //Left LEDs flash
+echo 2 > /dev/myled0 //Left LEDs solid
+echo 5 > /dev/myled0 //Right LEDs flash
+echo 4 > /dev/myled0 //Right LEDs solid
+
 ```
 
 ## Licence
