@@ -5,10 +5,12 @@ Device driver for separately shining two LEDs.
 - https://youtu.be/MVUase_HDJ0
 
 ## Requirements
-* Raspberry Pi 3 Model B
- - Raspbian
+- Raspberry Pi 3 Model B
+  - Raspbian
+  
 - Linux Kernel Source
- - 
+ - kernel build scripts :
+ 
 - 2 LEDs
 
 
