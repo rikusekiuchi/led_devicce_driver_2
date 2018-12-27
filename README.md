@@ -9,9 +9,17 @@ Device driver for separately shining two LEDs.
   - Raspbian
   
 - Linux Kernel Source
- - kernel build scripts :
+  - kernel build scripts : https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
  
 - 2 LEDs
 
 
-##
+## Usage
+```
+make
+sudo insmod myled.ko
+sudo chmod 666 /dev/myled0
+```
+
+## Licence
+This repository is licensed under the GPLv3 license
