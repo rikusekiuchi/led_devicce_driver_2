@@ -12,7 +12,6 @@ Device driver for separately shining two LEDs.
   - kernel build scripts : https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 - 2 LEDs
 
-
 ## Usage
 ```
 cd led_device_driver_2
@@ -25,7 +24,6 @@ echo 3 > /dev/myled0 //Left LEDs flash
 echo 2 > /dev/myled0 //Left LEDs solid
 echo 5 > /dev/myled0 //Right LEDs flash
 echo 4 > /dev/myled0 //Right LEDs solid
-
 ```
 
 ## Licence
