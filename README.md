@@ -7,10 +7,9 @@ Device driver for separately shining two LEDs.
 ## Requirements
 - Raspberry Pi 3 Model B
   - Raspbian
-  
 - Linux Kernel Source
+  - download kernel source into /user/src/linux
   - kernel build scripts : https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
- 
 - 2 LEDs
 
 
